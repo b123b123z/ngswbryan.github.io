@@ -31,20 +31,19 @@
   color: white;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
 
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #ff0000;
 }
 
 .navbar {
-  text-transform: uppercase;
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: rgba(91, 192, 222, 0.8)!important;
+  background: rgba(2, 162, 255, 0.8)!important;
 }
 
 .navbar-nav li {
@@ -58,7 +57,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: yellow;
+  color: rgb(0, 0, 0);
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
