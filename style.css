@@ -1,9 +1,4 @@
-
-
-
-
-
-/*============= COURSE SECTION =============*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 .narrow {
   width: 75%;
@@ -31,19 +26,17 @@
   color: white;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
-
 body {
   overflow-x: hidden;
-  font-family: 'Oswald', sans-serif;
-  color: #ff0000;
+  font-family: 'Lato', sans-serif;
+  color: #17A2B8;
 }
 
 .navbar {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background: rgba(2, 162, 255, 0.8)!important;
+  background: rgba(174, 189, 197, 0.8)!important;
 }
 
 .navbar-nav li {
@@ -58,6 +51,26 @@ body {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: rgb(0, 0, 0);
+}
+
+.home-inner {
+  background-image: url(img/background2.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 28%;
+  z-index: 1;
+}
+
+.caption h1 {
+  font-weight: 700;
+}
+
+.caption h3 {
+  font-size: 1.5rem;
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
